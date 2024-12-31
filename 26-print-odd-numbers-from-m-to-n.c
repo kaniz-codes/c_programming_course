@@ -1,0 +1,15 @@
+// Print odd numbers from m to n
+#include <stdio.h>
+int main() 
+{
+   int i,n, m;
+   scanf("%d", &m);
+   scanf("%d", &n);
+   for(i=m; i<=n; i++)
+   {
+       if(i%2==! 0)
+       {
+           printf("%d\n",i);
+       }
+   }
+}
